@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}
+display
+{% endblock %}
+
+
+{% block content %}
+
+    <h1>Display Page</h1>
+    <!-- {{ name }} -->
+    {% for user in name %} 
+        {{ user }}
+        print(type({{ user }})) <br />
+        
+    {% endfor %}
+
+{% endblock %}
+
+{% block table %}
+    <table class="table" .ml-5>
+        <thead class="thead-dark">
+            <tr>
+                <th><strong>User name</strong></th>
+                <th><strong>Message Count</strong></th>
+                <th><strong> Most frequently sent message</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in data %}
+            <tr>
+                <td scope="row">{{ i.name }}</td>
+                <td>{{ i.messageCount }}</td>
+                <td>{{ i.latestMessage }}</td>            
+            </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+{% endblock %}
