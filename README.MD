@@ -37,13 +37,4 @@ git clone https://github.com/FazeelUsmani/Sekel-Technologies-Backend-Assignment.
 python manage.py runserver
 ```
 
-The app should now be up and running at [http://localhost:8000/dashboard/display] 🚀
-
-
-
-
-
-
-
-
-# Sekel-Technologies-Backend-Assignment
+The app should now be up and running at [http://localhost:8000/dashboard/display](http://localhost:8000/dashboard/display) 🚀
