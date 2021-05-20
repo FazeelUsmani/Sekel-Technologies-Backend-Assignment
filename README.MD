@@ -22,17 +22,18 @@ minHeap then we need to replace. Likewise, we get the top 5 users with max messa
 format.
 4) Printing these users in a table in HTML format
 
-
+Here's the following output:
+![top five users with maximum messages](output.jpg)
 
 
 ## Steps to see the required output:
 
-1)
+1) Clone the repository
 ```
 git clone https://github.com/FazeelUsmani/Sekel-Technologies-Backend-Assignment.git
 ```
 
-2) Open sekel folder which contains manage.py file and enter the following command
+2) Open SEKEL_ASSN/sekel folder which contains manage.py file and enter the following command
 ```
 python manage.py runserver
 ```

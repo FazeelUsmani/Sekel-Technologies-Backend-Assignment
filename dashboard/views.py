@@ -58,8 +58,7 @@ def display(request):
     allData = []
     # popping out all elements from heap and adding to a list
     while heap:
-        ele = heappop(heap)
-        print(ele)
+        ele = heappop(heap)        
         currDict = {}
         currDict["name"] = ele[1]
         currDict["messageCount"] = ele[0]
