@@ -1,6 +1,6 @@
 # Sekel Technologies assignment
 
-A Django web application which takes data from ![http://www.mocky.io/v2/5d403d913300003a209d2ad3](http://www.mocky.io/v2/5d403d913300003a209d2ad3)
+A __Django web application__ which takes data from [http://www.mocky.io/v2/5d403d913300003a209d2ad3](http://www.mocky.io/v2/5d403d913300003a209d2ad3)
 and displays the top 5 users with their names, message count and latest message
 
 
@@ -23,11 +23,27 @@ format.
 4) Printing these users in a table in HTML format
 
 
+
+
 ## Steps to see the required output:
 
+1)
+```
+git clone https://github.com/FazeelUsmani/Sekel-Technologies-Backend-Assignment.git
+```
+
+2) Open sekel folder which contains manage.py file and enter the following command
 ```
 python manage.py runserver
 ```
 
+The app should now be up and running at [http://localhost:8000/dashboard/display] 🚀
 
 
+
+
+
+
+
+
+# Sekel-Technologies-Backend-Assignment
